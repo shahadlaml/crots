@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAMA,GAAG;EACD,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;;AAGf,KAAK;EACH,gBAAgB,EAAE,GAAG;;;ACNvB,KAAK;EACH,gBAAgB,EAAE,KAAK;;;ACAzB,KAAK;EACH,gBAAgB,EAAE,MAAM;;;ACD1B,KAAK;EACH,gBAAgB,EAAE,MAAM;;;ACA1B,KAAK;EACH,gBAAgB,EAAE,KAAK;;;ACDzB,KAAK;EACH,gBAAgB,EAAE,IAAI;;;ACFxB,KAAK;EACH,gBAAgB,EAAE,IAAI",
+"sources": ["../sass/0-colors/colors-dir.sass","../sass/1-layout/_layout-dir.sass","../sass/2-landingPage/_landingPage-dir.sass","../sass/3-gallery/_gallery-dir.sass","../sass/4-projects/_projects-dir.sass","../sass/5-contact/_contact-dir.sass","../sass/6-skills/_skills-dir.sass"],
+"names": [],
+"file": "app.css"
+}

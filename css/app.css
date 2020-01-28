@@ -1,0 +1,33 @@
+/* PLUGINS */
+div {
+  width: 300px;
+  height: 300px; }
+
+.box1 {
+  background-color: red; }
+
+/* BASE STYLES */
+.box2 {
+  background-color: green; }
+
+/* LAYOUTS */
+.box3 {
+  background-color: yellow; }
+
+/* MODULES */
+.box4 {
+  background-color: violet; }
+
+/* MODULES */
+.box5 {
+  background-color: black; }
+
+/* MODULES */
+.box6 {
+  background-color: gray; }
+
+/* MODULES */
+.box7 {
+  background-color: teal; }
+
+/*# sourceMappingURL=app.css.map */
