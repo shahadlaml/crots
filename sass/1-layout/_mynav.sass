@@ -1,30 +1,44 @@
-.header-scroll
-  transition: all 4s ease-in-out
-  .container
-    padding: 15px 0
-    background-color: white
-    position: -webkit- sticky
-    background-color: RGBA(255,255,255,0.9)
-  .logo
-    display: flex
-    align-items: center
-    justify-content: center
-    img
-      width: 100px
 
-
-
-.sticky
-  position: fixed
+nav
   width: 100%
-  left: 0
-  top: 0
-  z-index: 100
-  border-top: 0
+  position: fixed
+.logo
+  width: 150px
+p
+  padding: 0
+  margin: 0
+.head
+  height: 150px
+  background-color: white
+.content
+  padding-top: 200px
 
-.nav-menu-p
-  transition: all 10.5s ease-in-out
-  padding-top: 300px
+.menu
+  background-color: $dark
+  height: 50%
+  display: flex
+  align-items: center
+  justify-content: center
+  border-bottom-left-radius: 50%
+  padding-bottom: 30px
+  ul
+    list-style: none
+    display: flex
+    flex-direction: row
+    flex-wrap: wrap
+    justify-content: center
+    li
+      padding: 2.5em
+      & :hover
+        color: $blue
+      a
+        color: white
+        text-decoration: none
+        font-family: $sans-serif
+.head
+  padding-left: 3%
+  padding-top: 3%
 
-.header
-  height: 170px
+
+.hide
+  display: none

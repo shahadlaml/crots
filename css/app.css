@@ -1,43 +1,6 @@
 /* BASE STYLES */
-.navigation {
-  display: none;
-  z-index: 21;
-  position: fixed;
-  width: 100%;
-  height: auto; }
-  .navigation .bottom-angle {
-    margin-top: -20px;
-    border-color: #749799 transparent; }
-
-.top-angle, .bottom-angle {
-  width: 0;
-  height: 0;
-  border-color: rgba(255, 255, 255, 0) #f8f8f8;
-  border-style: solid solid solid dashed;
-  border-width: 400px 0 0 0;
-  margin-top: -200px;
-  border-right-width: 100%;
-  border-top-width: 285px;
-  border-color: #fff transparent; }
-
-.hero {
-  background: url("../img/extra/gra.svg");
-  background-size: cover;
-  height: 400px;
-  margin-top: -100px; }
-
-body {
-  margin: 0;
-  padding: 0; }
-
-.logo img {
-  display: block;
-  width: 150px; }
-
-.nav-menu {
-  position: absolute;
-  background: #131415;
-  width: 100%; }
+.menu-icon {
+  cursor: pointer; }
 
 button {
   position: fixed;
@@ -68,15 +31,6 @@ button {
     transition-delay: 100ms;
     transform: scale(1.1); }
 
-.header {
-  z-index: 20;
-  position: relative; }
-
-.container {
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box; }
-
 .preloader {
   position: absolute;
   top: 0;
@@ -96,34 +50,53 @@ button {
     font-family: "Spectral", serif;
     color: #749799; }
 
-.header-scroll {
-  transition: all 4s ease-in-out; }
-  .header-scroll .container {
-    padding: 15px 0;
-    background-color: white;
-    position: -webkit- sticky;
-    background-color: RGBA(255, 255, 255, 0.9); }
-  .header-scroll .logo {
-    display: flex;
-    align-items: center;
-    justify-content: center; }
-    .header-scroll .logo img {
-      width: 100px; }
-
-.sticky {
-  position: fixed;
+nav {
   width: 100%;
-  left: 0;
-  top: 0;
-  z-index: 100;
-  border-top: 0; }
+  position: fixed; }
 
-.nav-menu-p {
-  transition: all 10.5s ease-in-out;
-  padding-top: 300px; }
+.logo {
+  width: 150px; }
 
-.header {
-  height: 170px; }
+p {
+  padding: 0;
+  margin: 0; }
+
+.head {
+  height: 150px;
+  background-color: white; }
+
+.content {
+  padding-top: 200px; }
+
+.menu {
+  background-color: #131415;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom-left-radius: 50%;
+  padding-bottom: 30px; }
+  .menu ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .menu ul li {
+      padding: 2.5em; }
+      .menu ul li :hover {
+        color: #749799; }
+      .menu ul li a {
+        color: white;
+        text-decoration: none;
+        font-family: "Rubik", sans-serif; }
+
+.head {
+  padding-left: 3%;
+  padding-top: 3%; }
+
+.hide {
+  display: none; }
 
 body {
   margin: 0;
