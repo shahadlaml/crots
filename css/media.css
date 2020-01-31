@@ -40,3 +40,17 @@
   0%   {transform: scale(.8);}
   100% {transform: scale(1);}
 }
+
+/* the list items for nav */
+
+@media only screen and (max-width: 600px){
+.menu ul li{
+      padding: 1.5em
+}
+
+}
+
+
+.hide{
+  display: none;
+}
