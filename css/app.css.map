@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": ";;AAOA,KAAK;EACH,gBAAgB,EAAE,MAAM;;;ACD1B,KAAK;EACH,gBAAgB,EAAE,MAAM",
-"sources": ["../sass/2-landingPage/_landingPage-dir.sass","../sass/3-sectionpage/_sectionpage-dir.sass"],
+"mappings": ";AACA,IAAI;EACF,gBAAgB,ECcX,OAAO;;AChBd,UAAU;EACR,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,iBAAiB,EAAE,SAAS;EAC5B,gBAAgB,EAAE,IAAI;EACtB,mBAAmB,EAAE,MAAM;EAC3B,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,eAAe,EAAE,MAAM;EACvB,cAAc,EAAE,MAAM;EACtB,YAAC;IACC,SAAS,EAAE,GAAY;IACvB,WAAW,EDRP,iBAAiB;ICSrB,KAAK,EDHF,OAAO;;AELd,IAAI;EACF,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;EACV,SAAS,EFLC,GAAG;;;AGAf,KAAK;EACH,gBAAgB,EAAE,MAAM;;;ACD1B,KAAK;EACH,gBAAgB,EAAE,MAAM",
+"sources": ["../sass/1-layout/_nav.sass","../sass/_variables.sass","../sass/1-layout/_preloader.sass","../sass/1-layout/_layout-dir.sass","../sass/2-landingPage/_landingPage-dir.sass","../sass/3-sectionpage/_sectionpage-dir.sass"],
 "names": [],
 "file": "app.css"
 }
