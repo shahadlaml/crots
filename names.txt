@@ -1,0 +1,20 @@
+
+index.html
+
+<!-- islamic -->
+islam.html
+
+<!-- since -->
+si.html
+
+<!-- media -->
+media.html
+
+<!-- economic -->
+eco.html
+
+<!-- literutare -->
+lit.html
+
+<!-- tour -->
+tour.html

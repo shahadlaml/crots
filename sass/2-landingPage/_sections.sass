@@ -1,0 +1,43 @@
+.grid
+  display: grid
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr))
+  grid-gap: 20px
+  align-items: stretch
+  article
+    background-color: white
+    border-radius: 10%
+    display: flex
+    justify-content: center
+    align-items: center
+    flex-direction: column
+    padding: 30px
+    text-align: center
+    height: auto
+    h3
+      font-family: $serif
+    p
+      font-family: $sans-serif
+      text-align: left
+
+.cardlink
+  text-decoration: none
+  color: $dark
+  & :hover
+    border-radius: 7%
+    //border: 1px solid #ccc
+    //box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3)
+  img
+    width: 200px
+  .text
+    padding: 20px
+
+.content
+  background: rgb(116,151,153)
+  background: linear-gradient(0deg, rgba(116,151,153,1) 0%, rgba(210,237,238,1) 100%)
+  padding: 5%
+  padding-top: 200px
+  h2
+    text-align: center
+    font-size: 3em
+    color: $dark
+    font-family: $serif
