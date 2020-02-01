@@ -18,3 +18,7 @@ lit.html
 
 <!-- tour -->
 tour.html
+
+
+<!-- all the sections grid layout  -->
+all.html
