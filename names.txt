@@ -3,29 +3,64 @@ index.html
 
 <!-- islamic -->
 islam.html
-  islam0.html
-    Textes
-  islam1.html
-    Lexiques
-  islam2.html
-    Vidéos
-  islam3.html
-    Activités d’apprentissage
+          islam0.html
+            Textes
+          islam1.html
+            Lexiques
+          islam2.html
+            Vidéos
+          islam3.html
+            Activités d’apprentissage
 <!-- since -->
 si.html
-
+            si0.html
+              Textes
+            si1.html
+              Lexiques
+            si2.html
+              Vidéos
+            si3.html
+              Activités d’apprentissage
 <!-- media -->
 media.html
-
+          media0.html
+            Textes
+          media1.html
+            Lexiques
+          media2.html
+            Vidéos
+          media3.html
+            Activités d’apprentissage
 <!-- economic -->
 eco.html
-
+        eco0.html
+          Textes
+        eco1.html
+          Lexiques
+        eco2.html
+          Vidéos
+        eco3.html
+          Activités d’apprentissage
 <!-- literutare -->
 lit.html
-
+        lit0.html
+          Textes
+        lit1.html
+          Lexiques
+        lit2.html
+          Vidéos
+        lit3.html
+          Activités d’apprentissage
 <!-- tour -->
 tour.html
-
+        tour0.html
+          Textes
+        tour1.html
+          Lexiques
+        tour2.html
+          Vidéos
+        tour3.html
+          Activités d’apprentissage
 
 <!-- all the sections grid layout  -->
 all.html
