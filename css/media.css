@@ -112,6 +112,13 @@
 
 
 
+/*for the vedio*/
+@media screen and (max-width: 600px) {
+  iframe{
+    width:315px;
+     height:315px;
+  }
+}
 
 
 

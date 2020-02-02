@@ -55,7 +55,10 @@ nav {
   position: fixed; }
 
 .logo {
-  width: 150px; }
+  width: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
 
 p {
   padding: 0;
@@ -254,7 +257,8 @@ body {
   font-family: "Rubik", sans-serif;
   padding: 19px;
   color: #131415;
-  border: solid 5px #749799;
+  border-bottom: solid 5px #749799;
+  border-left: solid 5px #749799;
   border-top-left-radius: 20px;
   border-bottom-right-radius: 20px;
   transition-property: all 0.5s linear 0s;
@@ -384,9 +388,15 @@ body {
       text-align: center; }
       .subsection .box a p {
         font-family: "Rubik", sans-serif;
-        font-size: 0.9em; }
+        font-size: 0.9em;
+        padding-top: 6px; }
+        .subsection .box a p:hover {
+          color: #749799; }
 
 .sub {
   padding-bottom: 0; }
+
+iframe {
+  padding-bottom: 90px; }
 
 /*# sourceMappingURL=app.css.map */
