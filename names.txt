@@ -3,7 +3,14 @@ index.html
 
 <!-- islamic -->
 islam.html
-
+  islam0.html
+    Textes
+  islam1.html
+    Lexiques
+  islam2.html
+    Vidéos
+  islam3.html
+    Activités d’apprentissage
 <!-- since -->
 si.html
 

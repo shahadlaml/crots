@@ -123,7 +123,7 @@ footer {
   padding-top: 60px; }
   footer h4 {
     margin-top: 0;
-    padding-left: 50px;
+    padding-left: 10%;
     font-size: 2em;
     padding-bottom: 0px; }
 
@@ -255,8 +255,8 @@ body {
   padding: 19px;
   color: #131415;
   border: solid 5px #749799;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   transition-property: all 0.5s linear 0s;
   -moz-transition: all 0.5s linear 0s;
   -webkit-transition: all 0.5s linear 0s;
@@ -270,8 +270,8 @@ body {
     color: white;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px; }
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px; }
 
 .all-sections {
   border: solid 0px #131415;
@@ -296,8 +296,67 @@ body {
   background-image: url("../img/header/tour.jpg"); }
 
 /* MODULES */
-.box4 {
-  background-color: violet; }
+.content-section {
+  padding: 0 0;
+  padding-top: 10vh;
+  padding-bottom: 90px; }
+  .content-section p {
+    padding: 40px 10%;
+    font-family: "Spectral", serif; }
+
+.header {
+  height: 40vh;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .header h2 {
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 100%;
+    text-align: center;
+    padding: 20px 0; }
+
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; }
+
+.section-parts {
+  width: 150px;
+  padding: 19px; }
+  .section-parts:hover {
+    opacity: 0.5; }
+  .section-parts a {
+    text-decoration: none; }
+    .section-parts a p {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-family: "Rubik", sans-serif;
+      color: #131415;
+      padding-top: 19px; }
+
+#head1 {
+  background-image: url("../img/header/islam.jpg"); }
+
+#head2 {
+  background-image: url("../img/header/si.jpg"); }
+
+#head3 {
+  background-image: url("../img/header/media.jpg"); }
+
+#head4 {
+  background-image: url("../img/header/eco.jpg"); }
+
+#head5 {
+  background-image: url("../img/header/lit.jpg"); }
+
+#head6 {
+  background-image: url("../img/header/tour.jpg"); }
 
 /* MODULES */
 
