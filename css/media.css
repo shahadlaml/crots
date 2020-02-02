@@ -47,6 +47,14 @@
 .menu ul li{
       padding: 1.5em
 }
+.slide-info h2{
+  font-size: 2.7em;
+}
+.slide-info p{
+  font-size: 1em;
+  padding: 0 20px;
+  text-align: justify;
+}
 
 }
 
@@ -85,6 +93,11 @@
 #button:hover {
   cursor: pointer;
   background-color: #131415;
+  border-radius: 50px;
+  transition-property: all 0.5s linear 0s;
+  -moz-transition: all 0.5s linear 0s;
+  -webkit-transition: all 0.5s linear 0s;
+  -o-transition: all 0.5s linear 0s;
 }
 #button:active {
   background-color: #555;

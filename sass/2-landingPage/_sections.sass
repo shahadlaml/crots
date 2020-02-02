@@ -5,7 +5,7 @@
   align-items: stretch
   article
     background-color: white
-    border-radius: 10%
+    border-radius: 10px
     display: flex
     justify-content: center
     align-items: center
@@ -23,7 +23,7 @@
   text-decoration: none
   color: $dark
   & :hover
-    border-radius: 7%
+    border-radius: 5px
     //border: 1px solid #ccc
     //box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3)
   img
@@ -32,11 +32,20 @@
     padding: 20px
 
 .content
-  background-color: $dark
+  //background-color: $dark
+  height: 100%
+  width: auto
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  background-image: url("../img/header/all.jpg")
   padding: 5%
   padding-top: 200px
   h2
     text-align: center
     font-size: 3em
-    color: $light
+    color: $dark
     font-family: $serif
+    background-color: rgba(255, 255, 255, 0.7)
+    width: 100%
+    border-radius: 10px
