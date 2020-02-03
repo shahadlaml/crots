@@ -1,7 +1,23 @@
 //preloeder
+
+function disableScrolling(){
+    var x=0;
+    var y=0;
+    window.onscroll=function(){window.scrollTo(x, y);};
+}
+
+function enableScrolling(){
+    window.onscroll=function(){};
+}
+
+
 $(window).load(function() {
    $('.preloader').fadeOut('slow');
+   enableScrolling();
+
 });
+disableScrolling();
+
 
 //navigation btn
 $('.menu-icon').on('click', function(){
